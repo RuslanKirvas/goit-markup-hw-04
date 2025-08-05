@@ -244,8 +244,10 @@ p {
   width: 264px;
   height: 112px;
   display: flex;
+  margin-bottom: 8px;
   justify-content: center;
   align-items: center;
+  background-color: #f4f4fd;
 }
 
 .features-icons {
@@ -346,8 +348,12 @@ p {
   justify-content: center;
   flex-direction: row;
 
-  margin: 0;
+  margin: 16px 8px 32px;
   padding: 0;
+}
+.icon-soc {
+  fill: #f4f4fd;
+  transition: fill 0.3s;
 }
 
 /* portfolio */
@@ -455,15 +461,15 @@ p {
 
 .footer-container {
   max-width: 1158px;
-  margin: 0 auto;
-
-  padding: 0 15px;
+  margin: 0;
 }
 
 .footer-position {
   display: flex;
   justify-content: start;
   gap: 120px;
+  width: 1128px;
+  margin: 0 auto;
 }
 
 .position {
