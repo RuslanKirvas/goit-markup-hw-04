@@ -426,6 +426,8 @@ p {
 /* section footer */
 
 .page-footer {
+  display: flex;
+
   background-color: #2e2f42;
   padding: 100px 0;
 }
@@ -458,6 +460,19 @@ p {
   padding: 0 15px;
 }
 
+.footer-position {
+  display: flex;
+  justify-content: start;
+  gap: 120px;
+}
+
+.position {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
