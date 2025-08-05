@@ -461,8 +461,7 @@ p {
 
 .portfolio-text {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc
-  border-top: none;
+  border: 1px solid #e7e9fc border-top none;
   color: #434455;
 }
 
@@ -508,12 +507,15 @@ p {
 .footer-container {
   max-width: 1158px;
   margin: 0;
+
+  max-width: 264px;
+  margin-right: 120px;
 }
 
 .footer-position {
   display: flex;
   justify-content: flex-start;
-  align-items: baseline; 
+  align-items: baseline;
   gap: 120px;
   width: 1128px;
   margin: 0 auto;
@@ -545,7 +547,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin: 0;
+  margin-bottom: 16px;
 }
 
 .footer-list-icons {
