@@ -373,8 +373,8 @@ p {
 }
 
 .icon-wrapper {
-  width: 100%;
-  height: 100%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -386,7 +386,7 @@ p {
 
 .icon-wrapper:hover,
 .icon-wrapper:focus {
-  background-color: #404bbf; /* правильно — это при наведении */
+  background-color: #404bbf;
   border-color: #4d5ae5;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -420,7 +420,7 @@ p {
 }
 
 .portfolio-item:hover .portfolio-description {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .container-marketing {
@@ -431,6 +431,7 @@ p {
   width: 100%;
   overflow: hidden;
 }
+
 .portfolio-description {
   position: absolute;
   top: 0;
