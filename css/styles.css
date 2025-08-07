@@ -372,7 +372,7 @@ p {
   height: 40px;
 }
 
-.icon-wrapper {
+.team-icon-wrapper {
   width: 40px;
   height: 40px;
   display: flex;
@@ -384,8 +384,8 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-wrapper:hover,
-.icon-wrapper:focus {
+.team-icon-wrapper:hover,
+.team-icon-wrapper:focus {
   background-color: #404bbf;
 }
 
