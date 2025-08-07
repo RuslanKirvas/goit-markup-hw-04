@@ -423,15 +423,6 @@ p {
   transform: translateY(0%);
 }
 
-.container-marketing {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-
 .portfolio-description {
   position: absolute;
   top: 0;
